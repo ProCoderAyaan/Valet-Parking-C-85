@@ -72,7 +72,7 @@ function up() {
 } }
 function down() {
    if(car_y <=500) {
-		carr_y = car_y + 10;
+		car_y = car_y + 10;
 		 console.log("When down arrow is pressed, x = " + car_x + " | y = " +car_y);
 		  uploadBackground();
 		   uploadgreencar();
